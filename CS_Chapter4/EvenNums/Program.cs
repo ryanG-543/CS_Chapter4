@@ -10,6 +10,12 @@ namespace EvenNums
     {
         static void Main(string[] args)
         {
+            int even = 2;
+            while (even <= 100)
+            {
+                Console.WriteLine("{0}", even);
+                even+=2;
+            }
         }
     }
 }
