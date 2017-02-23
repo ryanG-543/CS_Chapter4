@@ -10,7 +10,8 @@ namespace Sum
     {
         static void Main(string[] args)
         {
-
+            string inputString;
+            int response;
         }
     }
 }
