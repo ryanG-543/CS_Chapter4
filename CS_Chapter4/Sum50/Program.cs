@@ -10,12 +10,7 @@ namespace Sum50
     {
         static void Main(string[] args)
         {
-            int number = 1;
-            while (number <= 50)
-            {
-                Console.WriteLine("{0}", number);
-                number++;
-            }
+          
         }
     }
 }

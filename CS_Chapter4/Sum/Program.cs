@@ -10,8 +10,19 @@ namespace Sum
     {
         static void Main(string[] args)
         {
-            string inputString;
-            int response;
+            int number = 0;
+            int sum = 0;
+            while (number != 999)
+            {
+                Console.WriteLine("Enter a number:");
+                number = Convert.ToInt32(Console.ReadLine());
+                if (number != 999)
+                    {
+                    sum = sum + number;
+                }
+            }
+            Console.WriteLine("The sum of the numbers is {0}", sum);
+            Console.ReadLine();
         }
     }
 }
